@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+  #renders the view
   def home
   end
 
@@ -9,5 +10,5 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
-  end              
+  end
 end
