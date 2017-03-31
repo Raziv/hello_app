@@ -4,6 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
+gem 'httparty', '~> 0.13.7'
+gem 'rest-client'
+gem 'faraday', '~> 0.9.2'
+gem 'logger', '~> 1.2', '>= 1.2.8'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '3.3.6'
